@@ -28,6 +28,7 @@ REG NO: 212222240037
 ```
 ### Import the necessary packages
 ```
+import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 ```
