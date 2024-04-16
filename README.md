@@ -28,7 +28,6 @@ REG NO: 212222240037
 ```
 ### Import the necessary packages
 ```
-import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 ```
@@ -36,7 +35,7 @@ import numpy as np
 ```
 img1=np.zeros((100,400),dtype="uint8")
 font=cv2.FONT_HERSHEY_PLAIN
-cv2.putText(img1,"S JAIGANESH",(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,"JFUJ",(5,70),font,2,(255),5,cv2.LINE_AA)
 cv2.imshow("image",img1)
 cv2.waitKey(0)
 ```
@@ -49,14 +48,14 @@ kernel1=cv2.getStructuringElement(cv2.MORPH_CROSS,(7,7))
 ```
 cv2.erode(img1, kernel)
 image_erode = cv2.erode(img1,kernel1)
-plt.imshow(image_erode)
-plt.axis('off')
+cv2.imshow("JAI",image_erode)
+cv2.waitKey(0)
 ```
 ### Dilate the image
 ```
 image_dilatel=cv2.dilate(img1,kernel1)
-plt.imshow(image_dilatel)
-plt.axis('off')
+cv2.imshow("JAI",image_dilatel)
+cv2.waitKey(0)
 ```
 ## Output:
 
