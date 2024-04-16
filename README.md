@@ -70,6 +70,8 @@ cv2.waitKey(0)
 
 
 ### Display the Dilated Image
+![image](https://github.com/Jaiganesh235/erosion-dilation/assets/118657189/2c65a59e-e6ef-433c-94af-89ede733426c)
+
 
 
 
