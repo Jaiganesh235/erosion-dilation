@@ -61,6 +61,7 @@ cv2.waitKey(0)
 
 ### Display the input Image
 
+![image](https://github.com/Jaiganesh235/erosion-dilation/assets/118657189/d55e88f1-3e3b-414a-92f6-9e07c90d92bd)
 
 
 ### Display the Eroded Image
